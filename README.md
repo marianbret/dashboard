@@ -1,9 +1,9 @@
 Quick and simple dashboard in NestJS for the back-end and Handlebars (template HTML) for the Front-end.
 
 To configure it:
-  -Install postgresql
-  -create a localserver with a database named: "dashboard_db"
-  -configure it with : postgres:123456
+  - Install postgresql
+  - create a localserver with a database named: "dashboard_db"
+  - configure it with : postgres:123456
   
 To run it:
   the app listen on port 8080 (http://localhost:8080)
