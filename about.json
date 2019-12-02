@@ -1,0 +1,70 @@
+{
+    " client ": {
+      " host ": "127.0.0.1"
+    },
+    " server ": {
+      " current_time ": 1573747887,
+      " services ": [{
+          " name ": " weather ",
+          " widgets ": [{
+            " name ": " weather",
+            " description ": " Widget méteo pour une ville donnée : affiche la température actuelle, la température minimale/maximale, la force du vent et l'état actuel du vent ",
+            " params ": [{
+              " name ": " city_name ",
+              " type ": " string "
+            }]
+          }]
+        },
+        {
+          " name ": " Cinéma ",
+          " widgets ": [{
+              " name ": " movie list",
+              " description ": " Widget Cinéma: Liste par date de sortie, un film ou une série TV selon un mot clé ou le nom d'une oeuvre ",
+              " params ": [{
+                " name ": " movie_name ",
+                " type ": " string "
+              }]
+            },
+            {
+              " name ": " movie description ",
+              " description ": " Widget Cinéma, pour un film donné: Liste le nom du réalisateur, des acteurs principaux, la date de sortie, le genre du film ainsi qu'un court synopsis ",
+              " params ": [{
+                " name ": " movie_name ",
+                " type ": " string "
+              }]
+            },
+            {
+              " name ": " movie ratings ",
+              " description ": " Widget Cinéma, pour un film donné: Liste les Awards gagnés par le film, l'argent récolté au box office, les votes imdb ainsi que les notes des critiques et/ou utilisateurs ",
+              " params ": [{
+                " name ": " movie_name ",
+                " type ": " string "
+              }]
+            }
+          ]
+        },
+        {
+          " name ": " Maps ",
+          " widgets ": [{
+            " name ": " Maps ",
+            " description ": " Widget Maps, pour une longitude et une latitude donnée: Affiche une carte centrée sur les coordonées rentrées par l'utilisateur ",
+            " params ": [{
+              " name ": " longitude, latitude ",
+              " type ": " string "
+            }]
+          }]
+        },
+        {
+          " name ": " Currency converter  ",
+          " widgets ": [{
+            " name ": " converter ",
+            " description ": " Widget converter: Affiche le résultat de la conversion(monétaire) d'une devise A a une devise B dans la devise visée  ",
+            " params ": [{
+              " name ": " Quantity ",
+              " type ": " integer "
+            }]
+          }]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,38 @@
+body {
+    background-image:url(images/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    padding: 70px;
+}
+
+#logout-button {
+    margin: 5px;
+}
+
+.moviesDisplay {
+    color: white;
+    text-shadow: white 0px 0px 10px;
+}
+
+.weatherWidgetDisplay {
+    color: white;
+    text-shadow: white 0px 0px 10px;
+}
+
+.moneyDisplay {
+    color: white;
+    text-shadow: white 0px 0px 10px;
+}
+
+.map {
+    height: 300px;
+    width: 100%;
+  }
